@@ -1,0 +1,15 @@
+/*================== m e d i u m  d e v i c e s===================*/
+
+@media screen and (max-width: 1024px){
+
+
+
+}
+
+/*================== s m a l l  d e v i c e s ===================*/
+
+@media screen and (max-width: 600px){
+
+
+
+}
