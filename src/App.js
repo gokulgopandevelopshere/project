@@ -1,50 +1,33 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header/Header"
-import About from "./components/about/About"
-import Nav from "./components/Nav/Nav"
-import Experience from "./components/experience/Experience"
-import Service from "./components/service/Service"
-import Portfolio from "./components/portfolio/Portfolio"
-import Testimonials from "./components/Testimonial/Testimonial"
-import Contact from "./components/contact/Contact"
-import Footer from "./components/footer/footer"
- 
+import Header from "./components/Header/Header";
+import About from "./components/about/About";
+import Nav from "./components/Nav/Nav";
+import Experience from "./components/experience/Experience";
+import Service from "./components/service/Service";
+import Portfolio from "./components/portfolio/Portfolio";
+import Testimonials from "./components/Testimonial/Testimonial";
+import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/footer";
+
 const App = () => {
   return (
     <>
-    <Header />
-    <Nav />
-    <About />    
-    <Experience />
-    <Service />
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Service />
 
-    <Portfolio /> 
+      <Portfolio />
 
-    <Testimonials/>
+      <Testimonials />
 
-    <Contact />
+      <Contact />
 
-    <Footer />
-
-
-
-
-    
-    
-    
-    
+      <Footer />
     </>
-    
-   
-    
-    
-    
-     
-  
-  
-  
-  )
-}
+  );
+};
 
 export default App;
